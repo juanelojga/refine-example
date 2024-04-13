@@ -11,6 +11,7 @@ export interface IPost {
   content: string;
   status: IStatus;
   category: ICategory;
+  habitants: number;
 }
 
 export type Nullable<T> = {
